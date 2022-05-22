@@ -6,7 +6,8 @@ public class Main {
         int a = 4;
 
         // deklaracja tablicy składającej się z 5 komórek
-        // tablica zawsze wypełnia się zerami
+        // tablica zawsze wypełnia się zerami, dopiero jak coś przypiszemy
+        // do danej komórki to zmienia się z 0 na wskazaną wartość
         int[] tablica = new int[5];     // deklaracja zer
         int[] tablicaDeklaracja = new int[]{5, 10, 15, 20, 25};     // deklaracja wartości
 
